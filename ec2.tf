@@ -13,7 +13,7 @@ data "aws_ami" "amazon_linux_2" {
 
   filter {
     name   = "block-device-mapping.volume-type"
-    values = ["gp2"]
+    values = ["gp3"]
   }
 
   filter {
